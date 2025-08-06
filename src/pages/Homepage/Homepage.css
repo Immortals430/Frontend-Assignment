@@ -1,0 +1,23 @@
+.homepage {
+    background-image: url("/background.webp");
+    background-size: cover;
+    height: 100dvh;
+    padding: 8rem;
+
+
+    h1{
+        font-size: 2rem;
+    }
+
+  .title {
+    text-align: center;
+    padding: 1rem;
+  }
+  .btn-container{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 5rem;
+  }
+
+}

@@ -1,0 +1,21 @@
+.aquaMarineBtn {
+  background-image: linear-gradient(to left, #26946fff, #7effd4);
+  border: none;
+  padding: 15px 40px;
+  text-align: center;
+  color: black;
+  border-radius: 32px;
+  box-shadow: 0 7px 11px #8d8d8dff;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.1s;
+  font-size: 1rem;
+}
+
+.aquaMarineBtn:hover {
+  transform: scale(1.05);
+}
+
+.aquaMarineBtn:active {
+  transform: translateY(4px) scale(0.99);
+}

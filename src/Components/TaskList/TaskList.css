@@ -1,0 +1,40 @@
+.card {
+  background-image: url("/card.webp");
+  background-position: center;
+  background-size: cover;
+  border: 1px dotted black;
+  aspect-ratio: 1 / 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  padding: 15% 20%;
+  border-radius: 20px;
+  font-size: larger;
+  position: relative;
+  overflow: hidden;
+  .task {
+    width: 100%;
+    word-wrap: break-word;
+    text-align: center;
+    max-height: 100%;
+    overflow-y: auto;
+    scrollbar-width: none;
+  }
+
+  .deleteBtn {
+    color: rgb(175, 1, 36);
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    font-size: xx-large;
+    transition: top 0.2s ease-in-out;
+
+  }
+}
+
+.card:hover .deleteBtn{
+     top: 25px;
+  }

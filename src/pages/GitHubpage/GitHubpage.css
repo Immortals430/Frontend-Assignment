@@ -1,0 +1,17 @@
+.githubpage {
+
+  background-color: black;
+  height: 100dvh;
+  color: grey;
+
+  .exception {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+
+  .error{
+    color: red;
+  }
+}
